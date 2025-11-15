@@ -1,7 +1,7 @@
 import User from "../models/User.js";
 import FriendRequest from "../models/FriendRequest.js";
 import { streamClient } from "../lib/stream.js";
-import { console } from "inspector/promises";
+//import { console } from "inspector/promises";
 
 export async function getRecommendedUsers(req, res) {
   try {
